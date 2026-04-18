@@ -1,0 +1,65 @@
+body {
+    background-color: #4B9CD3;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    display: flex;
+    border-radius: 100px;
+    padding: 60px;
+}
+
+.app {
+    border-radius: 20px;
+    width: 400px;
+}
+
+h1 { 
+
+
+}
+
+#taskInput {
+    width: 250px;
+    padding: 10px 14px;
+    border: 2px solid #cfd8e3;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+
+}
+
+#taskInput:focus {
+    border-color: #569ce1;
+    box-shadow: 0 0 8px rgba(86, 156, 225, 0.3);
+}
+
+button {
+    background-color: #ffffff;
+}
+
+button:hover {
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+li {
+    display: flex;
+    align-items: center;
+
+}
+
+li button {
+    margin-left: auto;
+}
+
+li span {
+    margin-left: 10px;
+}
+
+input[type="checkbox"] {
+    accent-color: #5ADB53;
+    transform: scale(1.5);
+}
